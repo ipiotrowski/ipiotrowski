@@ -44,7 +44,7 @@ My day-to-day work typically involves:
 **End-to-end Power BI analysis of e-commerce delivery bottlenecks using the Olist dataset.**
 
 Repository:  
-👉 https://github.com/ipiotrowski/Delivery-Process-Bottleneck-Analysis
+👉 https://github.com/ipiotrowski/delivery_bottleneck_analysis
 
 Scope:
 - end-to-end analytical design built entirely in Power BI, covering ETL, data modeling, business logic, and reporting
