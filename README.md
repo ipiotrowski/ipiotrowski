@@ -1,4 +1,4 @@
-# 👋 About Me
+## Hello there 👋
 
 I’m a **BI Developer** working primarily in the **Microsoft BI ecosystem**, with **Power BI** at the core.
 
@@ -40,8 +40,8 @@ My day-to-day work typically involves:
 
 ## 📂 Selected Projects
 
-### 📊 Delivery Process Bottleneck Analysis  
-**End-to-end Power BI analysis of e-commerce delivery bottlenecks using the Olist dataset.**
+### Delivery Process Bottleneck Analysis  
+**End-to-end Power BI analysis of e-commerce delivery bottlenecks.**
 
 Repository:  
 👉 https://github.com/ipiotrowski/delivery_bottleneck_analysis
