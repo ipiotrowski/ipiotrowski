@@ -14,7 +14,8 @@ Scope:
 - bottleneck severity logic written in DAX as a reusable semantic layer
 - report pairs an executive overview with diagnostic drill-down
 
-→ github.com/ipiotrowski/delivery_bottleneck_analysis
+→ [github.com/ipiotrowski/delivery_bottleneck_analysis](https://github.com/ipiotrowski/delivery_bottleneck_analysis)
+
 
 **Delivery bottleneck analysis (SQL Rebuild)** *(in progress)*
 
@@ -25,4 +26,4 @@ Scope:
 - window functions and CTEs for lead-time percentiles and stage gaps
 - the focus here is the SQL and modeling underneath the report
 
-→ github.com/ipiotrowski/delivery_bottleneck_analysis_sql)
+→ [github.com/ipiotrowski/delivery_bottleneck_analysis_sql)](https://github.com/ipiotrowski/delivery_bottleneck_analysis_sql)
