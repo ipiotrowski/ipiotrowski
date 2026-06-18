@@ -5,7 +5,9 @@ BI Developer with an analytics-engineering mindset and focus. I build end-to-end
 ### Selected Projects 📁
 
 **Delivery bottleneck analysis (Power BI)**
+
 End-to-end Power BI analysis of where e-commerce orders lose time before they reach the customer.
+
 Scope:
 - broke the order lifecycle into fulfillment stages to pinpoint where delays start
 - star-schema model with bridge tables, built for drill-through
@@ -15,7 +17,9 @@ Scope:
 → github.com/ipiotrowski/delivery_bottleneck_analysis
 
 **Delivery bottleneck analysis (SQL Rebuild)** *(in progress)*
+
 The same problem, rebuilt from the ground up as a layered SQL pipeline in MySQL.
+
 Scope:
 - raw → staging → marts structure following dbt conventions
 - window functions and CTEs for lead-time percentiles and stage gaps
