@@ -25,7 +25,7 @@ End-to-end Power BI analysis of where e-commerce orders lose time before they re
 Scope:
 - broke the order lifecycle into fulfillment stages to pinpoint where delays start
 - star-schema model with bridge tables, built for drill-through
-- bottleneck severity logic written in DAX as a reusable semantic layer
+- bottleneck severity index in DAX combining duration, variability, and order volume as a reusable semantic layer
 - report pairs an executive overview with diagnostic drill-down
 
 Tech: Power BI, Power Query (M), DAX, star schema, layered architecture
