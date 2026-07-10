@@ -4,7 +4,21 @@ BI Developer with an analytics-engineering mindset and focus. I build end-to-end
 
 ### Selected Projects 📁
 
-**Delivery bottleneck analysis (Power BI)**
+**Olist delivery analytics — SQL warehouse and analysis**
+
+End-to-end analytics engineering project on the Brazilian e-commerce dataset (~99k orders). Star schema warehouse in MySQL with seven analytical questions, each paired with a written business interpretation. Built to demonstrate the modeling and SQL patterns behind production analytics work.
+
+Scope:
+- Layered warehouse: raw → staging → marts, following dbt conventions
+- Kimball star schema: 4 dimensions, 2 facts, degenerate dimensions, bridge resolution for customer identity
+- Advanced window functions across all seven analyses: PERCENT_RANK, ROW_NUMBER, RANK, DENSE_RANK, rolling frames with RANGE INTERVAL
+- Post-build validation layer (dbt tests equivalent in raw SQL) and per-analysis business findings
+
+Tech: MySQL 8, window functions, recursive CTEs, star schema, Kimball, layered warehouse architecture
+
+→ [github.com/ipiotrowski/delivery_bottleneck_analysis_sql](https://github.com/ipiotrowski/delivery_bottleneck_analysis_sql)
+
+**Delivery bottleneck analysis — Power BI**
 
 End-to-end Power BI analysis of where e-commerce orders lose time before they reach the customer.
 
@@ -14,16 +28,6 @@ Scope:
 - bottleneck severity logic written in DAX as a reusable semantic layer
 - report pairs an executive overview with diagnostic drill-down
 
+Tech: Power BI, Power Query (M), DAX, star schema, medallion architecture
+
 → [github.com/ipiotrowski/delivery_bottleneck_analysis](https://github.com/ipiotrowski/delivery_bottleneck_analysis)
-
-
-**Delivery bottleneck analysis (SQL Rebuild)** *(in progress)*
-
-The same problem, rebuilt from the ground up as a layered SQL pipeline in MySQL.
-
-Scope:
-- raw → staging → marts structure following dbt conventions
-- window functions and CTEs for lead-time percentiles and stage gaps
-- the focus here is the SQL and modeling underneath the report
-
-→ [github.com/ipiotrowski/delivery_bottleneck_analysis_sql)](https://github.com/ipiotrowski/delivery_bottleneck_analysis_sql)
