@@ -4,7 +4,7 @@ BI Developer with an analytics-engineering mindset and focus. I build end-to-end
 
 ### Selected Projects 📁
 
-**Olist delivery analytics — SQL warehouse and analysis**
+1. **Olist delivery analytics - SQL warehouse and analysis**
 
 End-to-end analytics engineering project on the Brazilian e-commerce dataset (~99k orders). Star schema warehouse in MySQL with seven analytical questions, each paired with a written business interpretation. Built to demonstrate the modeling and SQL patterns behind production analytics work.
 
@@ -18,7 +18,7 @@ Tech: MySQL 8, window functions, recursive CTEs, star schema, Kimball, layered w
 
 → [github.com/ipiotrowski/delivery_bottleneck_analysis_sql](https://github.com/ipiotrowski/delivery_bottleneck_analysis_sql)
 
-**Delivery bottleneck analysis — Power BI**
+2. **Delivery bottleneck analysis - Power BI**
 
 End-to-end Power BI analysis of where e-commerce orders lose time before they reach the customer.
 
@@ -28,6 +28,6 @@ Scope:
 - bottleneck severity logic written in DAX as a reusable semantic layer
 - report pairs an executive overview with diagnostic drill-down
 
-Tech: Power BI, Power Query (M), DAX, star schema, medallion architecture
+Tech: Power BI, Power Query (M), DAX, star schema, layered architecture
 
 → [github.com/ipiotrowski/delivery_bottleneck_analysis](https://github.com/ipiotrowski/delivery_bottleneck_analysis)
